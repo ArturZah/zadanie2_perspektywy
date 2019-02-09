@@ -1,0 +1,178 @@
+body {
+    margin: 0 !important;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+table {
+    border-spacing: 0;
+    font-family: sans-serif;
+    color: #333333;
+}
+
+td {
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+p, ol {
+	margin: 0;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 12px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+ol {
+	font-size: 12px;
+}
+
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+.webkit {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px 0 0 0;
+}
+
+.outer {
+	margin: 0 auto;
+    width: 90%;
+    max-width: 550px;
+}
+
+.full-width-image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.contents {
+	padding: 10px;
+	display: block;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.bg-white {
+	background-color: #fff;
+}
+
+.bg-primary {
+	background-color: #f7f7f7;
+}
+
+.text-header {
+	text-transform: uppercase;
+	text-align: center;
+	width: 50%;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 30px auto;
+}
+
+.btn {
+	width: 70%;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	margin-bottom: 30px;
+	margin-left: 15%;
+	margin-right: 15%;
+	font-size: 12px;
+	font-weight: 600;
+	border: none;
+	cursor: pointer;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn-orange {
+	background-color: #f68326;
+}
+
+.btn-red {
+	width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+	background-color: #b70050;
+	overflow-wrap: break-word;
+}
+
+.text {
+	padding-bottom: 15px;
+	font-size: 12px;
+	width: 100%;
+	line-height: 16px;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.pb-0 {
+	padding-bottom: 0;
+}
+
+.pt-10 {
+	padding-top: 10px;
+}
+
+.text-orange {
+	color: #f68326;
+	text-align: center;
+}
+
+.footer {
+	padding-top: 0;
+	padding-bottom: 0;
+	margin: 0;
+}
+
+.text-footer {
+	font-size: 8px;
+	line-height: 10px;
+	color: #888;
+}
+
+.text-footer-info {
+	font-size: 9px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.footer a {
+	color: inherit;
+}
+
+@media screen and (max-width: 600px) {
+	.text-header {
+		width: 100%;
+		font-size: 14px;
+	}
+
+	ol {
+		padding: 5px;
+	}
+
+	.btn, .btn-red {
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
